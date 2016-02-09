@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link href="msa.css" rel="stylesheet">
+        <link href="pv-msa.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div id="viewer"></div>
+    
+        <script src="bio-pv.min.js"></script>
+        <script src="msa.min.js"></script>
+        <script src="pv-msa.js"></script>
+        
+        <script>
+            
+            var viewer = new PV("viewer");
+            viewer.render();
+
+            var seq1 = new Structure("target029", 
+                "target029", 
+                "VLSPADKTNVKAAWGKVGAHAG--EYGAEALERMFLSFPTTKTYFP---HFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR",
+                "target029.pdb", 
+                "red", 
+                1, 
+                false
+            )
+            
+            var seq2 = new Structure("4hhb", 
+                "4hhb", 
+                "VLSPADKTNVK-----AAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR",
+                "4hhb.pdb", 
+                "blue", 
+                1, 
+                false
+            )
+            
+	        viewer.addStructure(seq1, true);
+	        //viewer.addStructure(seq2, true);
+	        
+        </script>
+
+    </body>
+</html>
