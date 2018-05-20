@@ -50,7 +50,7 @@ viewer.addStructure(seq1, true);
 
 *Note: you will need to have npm and node installed for the demo to work.*
 
-An example of how to use PV-MSA can be found in `index/html`. To run a demo, install express using the following command:
+An example of how to use PV-MSA can be found in `index.html`. To run a demo, install express using the following command:
 
 ```
 npm install
