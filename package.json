@@ -1,0 +1,23 @@
+{
+  "name": "pv-msa",
+  "version": "1.0.0",
+  "description": "Protein and alignment viewer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RUBi-ZA/PV-MSA.git"
+  },
+  "author": "David Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RUBi-ZA/PV-MSA/issues"
+  },
+  "homepage": "https://github.com/RUBi-ZA/PV-MSA#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
