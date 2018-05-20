@@ -26,7 +26,7 @@ Somewhere in your HTML file, create an empty `div` that will be used to house th
 
 In you JavaScript, create the protein viewer and load the structure and sequence into it:
 
-```
+```javascript
 // create the viewer
 var viewer = new PV("viewer");
 viewer.render();
